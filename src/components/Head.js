@@ -1,6 +1,7 @@
 import React from "react";
 import { useDispatch } from "react-redux";
 import { toggleMenu } from "../utils/appSlice";
+import { Link } from "react-router-dom";
 
 const Head = () => {
   const dispatch = useDispatch();
@@ -8,6 +9,7 @@ const Head = () => {
   const toggleMenuHandler = () => {
     dispatch(toggleMenu());
   };
+  
   return (
     <div className="grid grid-flow-col p-2 m-1 shadow-lg static">
       <div className="flex gap-5">
@@ -15,13 +17,14 @@ const Head = () => {
           className="w-8 h-8 cursor-pointer"
           src="https://cdn.iconscout.com/icon/free/png-256/free-hamburger-menu-462145.png?f=webp"
           alt="menu"
-          onClick={()=> toggleMenuHandler()}
+          onClick={() => toggleMenuHandler()} // Corrected line
         />
-        <img
-          className="w-18 h-8"
-          src="https://vectorseek.com/wp-content/uploads/2021/01/YouTube-Logo-Vector.png"
-          alt="you_tube_logo"
-        />
+          <img
+            className="w-18 h-8"
+            src="https://vectorseek.com/wp-content/uploads/2021/01/YouTube-Logo-Vector.png"
+            alt="you_tube_logo"
+          />
+
       </div>
       <div className="flex mb-2">
         <input
