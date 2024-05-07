@@ -48,9 +48,8 @@ const WatchVideo = () => {
             <div className='flex-grow-6'>
                 <div>
                     <iframe
-                        className='rounded-2xl'
-                        width="910"
-                        height="550"
+                        width="1200"
+                        height="600"
                         src={"https://www.youtube.com/embed/" + videoId}
                         title="YouTube video player"
                         frameBorder="0"

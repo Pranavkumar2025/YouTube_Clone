@@ -44,7 +44,7 @@ const VideoContainer = () => {
   if (!videos.length) return <Shimmer />
 
   return (
-    <div className={`flex flex-wrap justify-center  ${!isMenuOpen ? "" : "ml-[280px]"}`}>
+    <div className={`flex flex-wrap justify-center ${!isMenuOpen ? "" : "ml-[280px]"}`}>
      
       {videos?.map(video =>
         <Link key={video?.id} to={'/watch?v=' + video.id}><VideoCard videoInfo={video} /></Link>
