@@ -5,10 +5,11 @@ import { useDispatch, useSelector } from "react-redux";
 import { SEARCH_API } from "../utils/constants.js";
 import { cacheSuggestions } from "../redux/searchSlice";
 import hamBurgerIcon from '../assets/hamburger.svg';
-import youtubeIcon from '../assets/youtube.svg';
+import youtubeIcon from '../assets/logo.png';
 import bellIcon from '../assets/bell.svg';
 import mikeIcon from '../assets/mike.svg';
 import createIcon from '../assets/create.svg';
+import userIcon from '../assets/MyPic.jpg'
 import { useNavigate } from "react-router-dom";
 
 
@@ -57,13 +58,13 @@ const Header = () => {
   };
   return (
 
-    <div className="fixed top-0 left-0 right-0 z-50 bg-white">
+    <div className="fixed top-0 left-0 right-0 z-50 bg-white shadow-md">
         <div className="flex flex-row justify-between items-center px-4 py-3">
             <div className="flex flex-row items-center">
                 <div className="w-10 h-10 hover:rounded-full hover:bg-gray-100 cursor-pointer">
                     <img className="h-6 mt-2 ml-2" onClick={toggleMenuHandler} src={hamBurgerIcon} alt="hamBurgerIcon" />
                 </div>
-                <a href="/"><img src={youtubeIcon} alt="" /></a>
+                <a href="/"><img src={youtubeIcon} className="h-[40px]" alt="" /></a>
             </div>
             <div className="relative">
             <div className='flex flex-row relative'>
@@ -92,7 +93,7 @@ const Header = () => {
             </div>
             <div className='flex flex-row-reverse justify-around'>
                <div className='w-10 h-10 ml-5 cursor-pointer'>
-                  <img className='mt-1 ml-2 h-7 rounded-full' alt='user-icon' src='https://w7.pngwing.com/pngs/178/595/png-transparent-user-profile-computer-icons-login-user-avatars-thumbnail.png' />
+                  <img className='mt-1 ml-2 h-11 w-11 rounded-full' alt='user-icon' src={userIcon} />
                </div>
                <div className='w-10 h-10 hover:rounded-full hover:bg-gray-100 ml-5 cursor-pointer relative'>
                   <img className='mt-2 ml-2' alt='bell-icon ' src={bellIcon} />
