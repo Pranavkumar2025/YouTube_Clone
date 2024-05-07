@@ -35,7 +35,7 @@ import reportHistoryIcon from '../assets/reportHistory.svg';
 import helpIcon from '../assets/help.svg';
 import sendFeedbackIcon from '../assets/sendFeedback.svg';
 
-const Sidebar = () => {
+const MySideBar = () => {
 
   const isMenuOpen = useSelector(store => store.menu.isMenuOpen);
 
@@ -97,4 +97,4 @@ const Sidebar = () => {
   )
 }
 
-export default Sidebar;
+export default MySideBar;
