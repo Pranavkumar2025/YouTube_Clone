@@ -15,6 +15,6 @@
 - Vercel hosting
 
 
-## 🌐 Explore the Demo: you-tube-clone-khaki.vercel.app
+## 🌐 Explore the Demo:  [you-tube-clone-khaki.vercel.app](https://you-tube-clone-khaki.vercel.app/)
 ## 🧑‍💻 Explore on GitHub: https://github.com/Pranavkumar2025/YouTube_Clone
 
