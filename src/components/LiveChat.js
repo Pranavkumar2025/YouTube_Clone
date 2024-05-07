@@ -37,7 +37,7 @@ const LiveChat = () => {
     const handleSubmit = (e) => {
         e.preventDefault();
         dispatch(addChat({
-            name: 'Krutika Jichkar',
+            name: 'Pranav Kumar',
             message: liveMessage
         }));
         setLiveMessage('');
