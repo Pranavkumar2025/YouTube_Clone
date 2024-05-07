@@ -93,7 +93,7 @@ const Header = () => {
             </div>
             <div className='flex flex-row-reverse justify-around'>
                <div className='w-10 h-10 ml-5 cursor-pointer'>
-                  <a href="https://github.com/Pranavkumar2025/YouTube_Clone"><img className='mt-1 ml-2 h-11 w-11 rounded-full' alt='user-icon' src={userIcon} /></a>
+                  <a href="https://github.com/Pranavkumar2025/YouTube_Clone" target="_blank"><img className='mt-1 ml-2 h-11 w-11 rounded-full' alt='user-icon' src={userIcon} /></a>
                </div>
                <div className='w-10 h-10 hover:rounded-full hover:bg-gray-100 ml-5 cursor-pointer relative'>
                   <img className='mt-2 ml-2' alt='bell-icon ' src={bellIcon} />
