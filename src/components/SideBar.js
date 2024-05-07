@@ -97,4 +97,4 @@ const Sidebar = () => {
   )
 }
 
-export default Sidebar;
+export  {Sidebar};
