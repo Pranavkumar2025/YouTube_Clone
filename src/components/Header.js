@@ -5,7 +5,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { SEARCH_API } from "../utils/constants.js";
 import { cacheSuggestions } from "../redux/searchSlice";
 import hamBurgerIcon from '../assets/hamburger.svg';
-import youtubeIcon from '../assets/logo.png';
+import youtubeIcon from '../assets/cinemix-high-resolution-logo-transparent.png';
 import bellIcon from '../assets/bell.svg';
 import mikeIcon from '../assets/mike.svg';
 import createIcon from '../assets/create.svg';
@@ -58,7 +58,7 @@ const Header = () => {
   };
   return (
 
-    <div className="fixed top-0 left-0 right-0 z-50 bg-white shadow-md">
+    <div className="fixed top-0 left-0 right-0 z-50 bg-blue-300 shadow-md">
         <div className="flex flex-row justify-between items-center px-4 py-3">
             <div className="flex flex-row items-center">
                 <div className="w-10 h-10 hover:rounded-full hover:bg-gray-100 cursor-pointer">
