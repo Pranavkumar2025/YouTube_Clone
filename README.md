@@ -1,4 +1,4 @@
-# VidTube ~ Youtube Clone
+# Cinemix ~ Youtube Clone
 
 ### 🌟 Features:
 - ✅YouTube API Integration: We've seamlessly integrated the YouTube API to offer you access to an extensive library of videos. It's like having YouTube at your fingertips!
