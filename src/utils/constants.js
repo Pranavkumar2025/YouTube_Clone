@@ -1,6 +1,7 @@
 
 
-export const API_KEY = process.env.REACT_APP_RAPID_API_KEY
+// export const API_KEY = process.env.REACT_APP_RAPID_API_KEY
+export const API_KEY = "AIzaSyCP6nfFMk-v0CWVuraB-au6gkEN9LYH-I8"
 export const YOUTUBE_API = 'https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&chart=mostPopular&maxResults=60&regionCode=IN&key=' + API_KEY ;
 export const SEARCH_API = 'https://suggestqueries.google.com/complete/search?client=firefox&ds=yt&q='
 export const CATEGORIES_API = "https://youtube.googleapis.com/youtube/v3/videoCategories?part=snippet&regionCode=IN&key=" + API_KEY;
