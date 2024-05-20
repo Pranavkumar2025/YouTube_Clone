@@ -5,7 +5,6 @@
 - ✅ Network Calls, Supercharged: Thanks to React Query, we've elevated performance by caching network calls. Say goodbye to sluggish loading times!
 - ✅Responsive Design: Whether you're on a desktop, tablet, or mobile, Streamy's responsive design ensures a seamless experience on all devices.
 
-
 💻 Tech Stack Used :
 - React, JavaScript
 - Redux ,Redux Toolkit
